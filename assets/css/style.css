@@ -225,7 +225,6 @@ article.active {
 .h4,
 .h5 {
   color: var(--white-2);
-  text-transform: capitalize;
 }
 
 .h2 { font-size: var(--fs-1); }
@@ -1424,6 +1423,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-avatar-box {
     transform: translate(30px, -30px);
+    border-radius: 20px;
+  }
+
+  .internio{
     border-radius: 20px;
   }
 
